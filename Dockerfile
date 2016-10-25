@@ -8,7 +8,7 @@ ENV APP_DIR /app
 
 RUN mkdir $APP_DIR
 WORKDIR $APP_DIR
-RUN git clone --single-branch -b combo https://github.com/ppicazo/srf-ip-conn-srv.git
+RUN git clone https://github.com/sharkrf/srf-ip-conn-srv.git
 RUN git clone https://github.com/sharkrf/srf-ip-conn
 RUN git clone https://github.com/zserge/jsmn
 
